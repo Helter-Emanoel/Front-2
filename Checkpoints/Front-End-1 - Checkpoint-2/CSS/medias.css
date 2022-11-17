@@ -1,0 +1,98 @@
+@media (max-width: 428px) {
+  body {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .logo {
+    width: 40%;
+    margin-left: 10%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .hamburguer {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 10%;
+  }
+
+  .banner {
+    height: 60vh;
+  }
+
+  .titulo {
+    align-items: center;
+    font-size: 1.1rem;
+  }
+
+  h1 {
+    height: 10vh;
+  }
+
+  .cards-button {
+    position: absolute;
+    margin-top: 50%;
+  }
+
+  .frueverd {
+    width: 100%;
+  }
+
+  .fruit {
+    width: 5%;
+    height: 5vh;
+  }
+
+  .texto {
+    font-size: 1rem;
+    height: 70vh;
+    flex-grow: 1;
+  }
+
+  .referencia {
+    margin-top: none;
+    font-size: 0.85rem;
+  }
+
+  iframe {
+    height: 50vh;
+  }
+
+  footer {
+    height: 80vh;
+    font-size: 0.85rem;
+  }
+
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.8rem;
+  }
+
+  .footer-bottom {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-desc {
+    font-size: 0.9rem;
+  }
+
+  .inicial-footer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-around;
+
+    align-items: center;
+    text-align: center;
+  }
+
+
+}

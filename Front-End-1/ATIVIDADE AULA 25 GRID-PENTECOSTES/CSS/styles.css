@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 70px 1fr;
+
+  grid-template-areas:
+    "header header"
+    "aside section";
+}
+
+header {
+  grid-area: header;
+  background-color: rgb(138, 21, 21);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: goldenrod;
+  font-size: 1.4rem;
+}
+
+header h1:hover {
+  color: red;
+  transition: 1s;
+}
+aside {
+  grid-area: aside;
+  background-color: rgb(138, 21, 21);
+}
+
+.pomba {
+  width: 100%;
+  border: 5px solid orangered;
+  border-radius: 10px;
+}
+aside ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  font-size: 1.3rem;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: orangered;
+}
+
+section {
+  grid-area: section;
+  background-color: rgb(230, 115, 73);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+section img {
+  width: 40%;
+  border: 5px solid orangered;
+  border-radius: 20px;
+  margin-right: 13%;
+}
+
+section img:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+section h2 {
+  margin-right: 13%;
+  font-size: 1.5rem;
+}
+
+section h2:hover {
+  color: rgb(156, 20, 20);
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+section p {
+  padding-left: 2%;
+  padding-right: 2%;
+  text-indent: 5%;
+  line-height: 25px;
+  text-align: justify;
+}

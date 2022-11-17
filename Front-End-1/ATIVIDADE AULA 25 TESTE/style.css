@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0px;
+
+  grid-template-areas: 
+  "header article footer "
+  "section article footer";
+}
+header {
+  grid-area: header;
+  background-color: aqua;
+}
+section {
+  grid-area: section;
+  background-color: brown;
+}
+article {
+  grid-area: article;
+  background-color: crimson;
+}
+footer {
+  grid-area: footer;
+  background-color: chartreuse;
+}

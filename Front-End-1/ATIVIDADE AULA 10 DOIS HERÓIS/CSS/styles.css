@@ -1,0 +1,203 @@
+span {
+  position: absolute;
+  width: 100%;
+  height: 38px;
+  left: 0px;
+  top: 0px;
+  background: #1cd1b0;
+  text-indent: 20px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+header {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 101px;
+  left: 0px;
+  top: 38px;
+  background: #00669f;
+  box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  text-indent: 20px;
+  font-family: "Roboto";
+}
+
+main {
+  background: #e5e5e5;
+}
+
+.card1 {
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  left: 130px;
+  top: 225px;
+  background: #f3f3f3;
+}
+
+.art1 {
+  position: absolute;
+  width: 100%;
+  height: 217.81px;
+  left: auto;
+  top: auto;
+  background-image: url(../IMG/849bfede3a5193c34ab8a00379e64fa2.jpg);
+  border-radius: 16px 16px 0px 0px;
+}
+
+.cor1 {
+  position: absolute;
+  width: 30px;
+  left: 5%;
+  right: 0%;
+  top: 5%;
+  bottom: 6.25%;
+}
+
+.botao1 {
+  position: absolute;
+  width: 135.43px;
+  height: 133.17px;
+  left: 120px;
+  top: 150px;
+  border-radius: 70px;
+}
+
+.titulobat {
+  position: absolute;
+  width: 138px;
+  height: 40;
+  left: 140px;
+  top: 270px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  color: #000000;
+}
+
+.textbat {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  left: 0px;
+  top: 350px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.link {
+  position: absolute;
+  width: 120px;
+  height: 40x;
+  left: 100px;
+  top: 530px;
+  color: white;
+  background: #00669f;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+/* Parou aqui card 1 */
+
+.card2 {
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  left: 800px;
+  top: 225px;
+  background: #f3f3f3;
+}
+
+.art2 {
+  position: absolute;
+  width: 100%;
+  height: 217.81px;
+  left: auto;
+  top: auto;
+  background-image: url(../IMG/fundo.jpg);
+  border-radius: 16px 16px 0px 0px;
+}
+
+.cor2 {
+  position: absolute;
+  width: 30px;
+  left: 5%;
+  right: 0%;
+  top: 5%;
+  bottom: 6.25%;
+}
+
+.botao2 {
+  position: absolute;
+  width: 135.43px;
+  height: 133.17px;
+  left: 120px;
+  top: 150px;
+  border-radius: 70px;
+}
+
+.tituloarq {
+  position: absolute;
+  width: 138px;
+  height: 40;
+  left: 140px;
+  top: 270px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+
+  color: #000000;
+}
+
+.textarq {
+  position: absolute;
+  width: 400px;
+  height: auto;
+  left: 0px;
+  top: 350px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.batlink2 {
+  position: absolute;
+  width: 120px;
+  height: 40x;
+  left: 100px;
+  top: 530px;
+  color: white;
+  background: #00669f;
+  padding: 10px 20px;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  bottom: -450px;
+  background-color: #00669f;
+  color: white;
+  text-indent: 20px;
+  padding-top: 20px;
+}

@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+  text-decoration: none;
+  list-style: none;
+  @import url(https://fonts.google.com/specimen/Inter);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 4%;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  padding-right: 14%;
+}
+ul {
+  display: flex;
+  gap: 10%;
+  color: hsl(236, 13%, 42%);
+  font-size: 1.2rem;
+}
+li:hover {
+  color: hsl(5, 85%, 63%);
+}
+.section1 {
+  margin-top: 4%;
+  display: flex;
+  gap: 3%;
+}
+div.esquerdo {
+  width: 70%;
+}
+.imgmain {
+  width: 100%;
+}
+div.conteudosmain {
+  display: flex;
+  margin-top: 2.5%;
+}
+div.paragrafomain {
+  width: 50%;
+  font-size: 4.2rem;
+  font-weight: bolder;
+}
+div.paragrafomain2 {
+  width: 50%;
+  color: hsl(236, 13%, 42%);
+  line-height: 130%;
+  text-align: justify;
+  font-size: 1.2rem;
+}
+button {
+  margin-top: 10%;
+  width: 45%;
+  height: 20%;
+  background-color: hsl(5, 85%, 63%);
+  border: none;
+  font-size: 0.9rem;
+  margin-top: 10%;
+}
+button:hover {
+  background-color: hsl(240, 100%, 5%);
+}
+a {
+  color: white;
+}
+
+div.direito {
+  width: 20vw;
+  background-color: hsl(240, 100%, 5%);
+  padding: 2%;
+}
+h1 {
+  color: hsl(35, 77%, 62%);
+}
+h3 {
+  color: hsl(36, 100%, 99%);
+}
+h3:hover {
+  color: hsl(35, 77%, 62%);
+}
+p.paragrafodireito {
+  color: hsl(236, 13%, 42%);
+  text-align: justify;
+  line-height: 120%;
+}
+.section2 {
+  margin-top: 5%;
+}
+.cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  display: flex;
+  gap: 5%;
+}
+.imgcard {
+  width: 100%;
+}
+h4 {
+  font-size: 1.5rem;
+  color: hsl(236, 13%, 42%);
+}
+.h5titulo {
+  margin-top: 2%;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: black;
+}
+h5 {
+  margin-top: 2%;
+  color: hsl(236, 13%, 42%);
+}
+.h5titulo:hover {
+  color: hsl(35, 77%, 62%);
+}
+.textos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+footer {
+  margin-top: 3%;
+}
+
+@media (max-width: 375px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 50vw;
+  }
+}

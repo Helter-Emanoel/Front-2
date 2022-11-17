@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body {
+  background-color: #131313;
+}
+
+h1 {
+  color: rgb(235, 193, 8);
+  font-family: "Roboto", sans-serif;
+}
+
+.media-picture {
+  height: 400px;
+  background-image: url(../IMG/supernatural-poster.jpg);
+  background-size: center;
+  background-repeat: no-repeat;
+}
+
+.review-score {
+  color: black;
+  background-color: yellow;
+  font-weight: bold;
+}
+
+h2 {
+  color: steelblue;
+}
+
+p {
+  color: #bdbdbd;
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: yellow;
+}

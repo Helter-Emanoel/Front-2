@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "Debug no chrome",
+            "request": "launch",
+            "url": "http://127.0.0.1:5500"
+        }
+    ]
+}

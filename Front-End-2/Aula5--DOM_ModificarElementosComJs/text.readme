@@ -1,0 +1,37 @@
+HTML
+<input type="checkbox" id="toggle" class="toggle" onclick="darkMode()">
+      <label for="toggle"></label>
+CSS
+.toggle{
+  display: none;
+}
+
+.toggle + label{
+  width: 32px;
+  height: 20px;
+  background-color: rgb(39, 23, 58);
+  display: block;
+  position: relative;
+  border-radius: 20px;
+  padding: 2px;
+  transition: 200ms;
+  cursor: pointer;
+}
+
+.toggle + label:before{
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(255, 194, 7);
+  display: block;
+  border-radius: 50%;
+  right: unset;
+  left: 2px;
+  top: 2px;
+  transition: 200ms;
+}
+
+.toggle:checked + label{
+  background-color: rgb(39, 23, 58);
+}
